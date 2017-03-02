@@ -1,7 +1,7 @@
 {
   "name": "alfred-battery",
   "version": "0.0.0",
-  "description": "Get battery status on alfred",
+  "description": "Alfred 3 workflow to get battery info",
   "license": "MIT",
   "repository": "alonalon/alfred-battery",
   "author": {
@@ -25,7 +25,10 @@
   "keywords": [
     "alfred",
     "workflow",
-    ""
+    "battery",
+    "charging",
+    "stats",
+    "battery level"
   ],
   "dependencies": {
     "alfy": "^0.6.0",

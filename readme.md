@@ -1,6 +1,6 @@
 # alfred-battery [![Build Status](https://travis-ci.org/alonalon/alfred-battery.svg?branch=master)](https://travis-ci.org/alonalon/alfred-battery)
 
-> Get battery status on alfred
+> Alfred 3 workflow for battery info
 
 
 ## Install
