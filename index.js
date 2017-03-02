@@ -10,26 +10,21 @@ const list = [
 		value: () => osxBattery().then(res => res.isCharging ? 'Yes' : 'No')
 	}, {
 		title: 'Cycle',
-		value: () => osxBattery().then(res => res.cycleCount).then(res => `${res} Cycles`)
+		value: () => osxBattery().then(res => res.cycleCount).then(res => `${res} cycles`)
 	}, {
 		title: 'Fully charged',
 		value: () => osxBattery().then(res => res.fullyCharged ? 'Yes' : 'No')
 	}, {
 		title: 'Level',
-		value: () => osxBattery().then(res => {
-			return parseFloat((res.currentCapacity / res.maxCapacity).toFixed(2));
-		}).then(res => {
-			const val = toPercent(res);
-			return `${val}%`;
-		})
+		value: () => osxBattery().then(res => `${toPercent(parseFloat((res.currentCapacity / res.maxCapacity).toFixed(2)))}%`)
 	}, {
 		title: 'Serial',
 		value: () => osxBattery().then(res => `Serial Number: ${res.batterySerialNumber}`)
 	}, {
 		title: 'Temperature',
-		value: () => osxBattery().then(res => {
-			return res.temperature.toString().slice(0, 2);
-		}).then(res => {
+		value: () => osxBattery().then(res =>
+			res.temperature.toString().slice(0, 2)
+		).then(res => {
 			return `${res}°C`;
 		})
 	}, {
