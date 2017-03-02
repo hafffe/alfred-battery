@@ -8,7 +8,7 @@ test('Charging', async t => {
 	t.is(typeof result, 'object');
 });
 
-test('cycleCount', async t => {
+test('Cycle', async t => {
 	const alfy = alfyTest();
 	const result = await alfy('Cycle');
 
@@ -24,7 +24,7 @@ test('Level', async t => {
 
 test('fullyCharged', async t => {
 	const alfy = alfyTest();
-	const result = await alfy('fullyCharged');
+	const result = await alfy('Fully Charged');
 
 	t.is(typeof result, 'object');
 });
@@ -38,14 +38,14 @@ test('Serial number', async t => {
 
 test('timeRemaining', async t => {
 	const alfy = alfyTest();
-	const result = await alfy('timeRemaining');
+	const result = await alfy('Time remaining');
 
 	t.is(typeof result, 'object');
 });
 
 test('temperature', async t => {
 	const alfy = alfyTest();
-	const result = await alfy('temperature');
+	const result = await alfy('Temperature');
 
 	t.is(typeof result, 'object');
 });
