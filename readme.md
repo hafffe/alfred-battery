@@ -17,6 +17,9 @@ $ npm install -g alfred-battery
 In Alfred, type `battery`, <kbd>Enter</kbd>, and your query.
 
 
+## Related
+[osx-battery](https://github.com/gillstrom/osx-battery)
+
 ## License
 
 MIT © [alonalon](http://aronhafner.com)
