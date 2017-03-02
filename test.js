@@ -10,7 +10,7 @@ test('Charging', async t => {
 
 test('Cycle', async t => {
 	const alfy = alfyTest();
-	const result = await alfy('Cycle');
+	const result = await alfy('Cycles');
 
 	t.is(typeof result, 'object');
 });

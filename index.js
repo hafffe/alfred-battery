@@ -9,7 +9,7 @@ const list = [
 		title: 'Charging',
 		subtitle: () => osxBattery().then(res => res.isCharging ? 'Yes' : 'No')
 	}, {
-		title: 'Cycle',
+		title: 'Cycles',
 		subtitle: () => osxBattery().then(res => res.cycleCount).then(res => `${res} cycles`)
 	}, {
 		title: 'Fully charged',

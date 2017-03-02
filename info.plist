@@ -77,7 +77,7 @@
 				<key>subtext</key>
 				<string></string>
 				<key>title</key>
-				<string>Get battery status on alfred</string>
+				<string>Get battery status</string>
 				<key>type</key>
 				<integer>0</integer>
 				<key>withspace</key>
