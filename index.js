@@ -6,6 +6,10 @@ const toPercent = require('to-percent');
 
 const list = [
 	{
+		title: 'Capacity',
+		subtitle: () => osxBattery().then(res => `${toPercent(parseFloat((res.maxCapacity / res.designCapacity).toFixed(2)))}%`)
+	},
+	{
 		title: 'Charging',
 		subtitle: () => osxBattery().then(res => res.isCharging ? 'Yes' : 'No')
 	}, {

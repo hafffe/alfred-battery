@@ -17,6 +17,7 @@ $ npm install -g alfred-battery
 In Alfred, type `battery`, <kbd>Enter</kbd>, and your query.
 
 Query options:
+ - Capacity
  - Charging
  - Cycles
  - Fully charged

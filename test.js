@@ -1,6 +1,13 @@
 import test from 'ava';
 import alfyTest from 'alfy-test';
 
+test('Capacity', async t => {
+	const alfy = alfyTest();
+	const result = await alfy('Chargin');
+
+	t.is(typeof result, 'object');
+});
+
 test('Charging', async t => {
 	const alfy = alfyTest();
 	const result = await alfy('Chargin');
