@@ -1,46 +1,43 @@
 {
-  "name": "alfred-battery",
-  "version": "1.0.0",
-  "description": "Alfred 3 workflow to get battery info",
-  "license": "MIT",
-  "repository": "alonalon/alfred-battery",
-  "author": {
-    "name": "alonalon",
-    "email": "aronhafner@gmail.com",
-    "url": "aronhafner.com"
-  },
-  "engines": {
-    "node": ">=4"
-  },
-  "scripts": {
-    "test": "xo && ava",
-    "postinstall": "alfy-init",
-    "preuninstall": "alfy-cleanup"
-  },
-  "files": [
-    "index.js",
-    "icon.png",
-    "info.plist"
-  ],
-  "keywords": [
-    "alfred",
-    "workflow",
-    "battery",
-    "charging",
-    "stats",
-    "battery level"
-  ],
-  "dependencies": {
-    "alfy": "^0.6.0",
-    "osx-battery": "^4.0.0",
-    "to-percent": "^1.0.2"
-  },
-  "devDependencies": {
-    "alfy-test": "^0.3.0",
-    "ava": "^0.15.2",
-    "xo": "^0.16.0"
-  },
-  "xo": {
-    "esnext": true
-  }
+	"name": "alfred-battery",
+	"version": "1.0.0",
+	"description": "Alfred 3 workflow to get battery info",
+	"license": "MIT",
+	"repository": "alonalon/alfred-battery",
+	"author": {
+		"name": "alonalon",
+		"email": "aronhafner@gmail.com",
+		"url": "aronhafner.com"
+	},
+	"engines": {
+		"node": ">=4"
+	},
+	"scripts": {
+		"test": "xo && ava",
+		"postinstall": "alfy-init",
+		"preuninstall": "alfy-cleanup"
+	},
+	"files": [
+		"index.js",
+		"icon.png",
+		"info.plist"
+	],
+	"keywords": [
+		"alfred",
+		"workflow",
+		"battery",
+		"charging",
+		"stats",
+		"battery level"
+	],
+	"dependencies": {
+		"alfy": "^0.6.0",
+		"osx-battery": "^4.0.0",
+		"to-percent": "^1.0.2"
+	},
+	"devDependencies": {
+		"alfy-test": "^0.3.0",
+		"ava": "*",
+		"xo": "*"
+	}
 }
