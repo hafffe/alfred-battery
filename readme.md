@@ -28,7 +28,8 @@ Query options:
 
 
 ## Related
-[osx-battery](https://github.com/gillstrom/osx-battery)
+- [osx-battery](https://github.com/gillstrom/osx-battery) made by [Gillstrom](https://github.com/gillstrom)
+- [alfy](https://github.com/sindresorhus/alfy) made by [Sindre Sorhus](https://github.com/sindresorhus)
 
 ## License
 
