@@ -1,6 +1,6 @@
 # alfred-battery
 
-> Alfred 3 workflow for battery info
+> Alfred workflow for battery info
 
 ![alt tag](https://github.com/alonalon/alfred-battery/blob/master/media/screenshot.png?raw=true)
 
@@ -10,7 +10,7 @@
 $ npm install -g alfred-battery
 ```
 
-*Requires [Node.js](https://nodejs.org) 4+ and the Alfred [Powerpack](https://www.alfredapp.com/powerpack/).*
+*Requires [Node.js](https://nodejs.org) 6+ and the Alfred 3 or 4 with Alfred [Powerpack](https://www.alfredapp.com/powerpack/).*
 
 ## Usage
 
